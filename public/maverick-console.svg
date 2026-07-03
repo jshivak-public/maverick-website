@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="900" viewBox="0 0 1440 900" role="img" aria-labelledby="title desc">
+  <title id="title">Maverick product interface mockup</title>
+  <desc id="desc">A restrained technical interface showing a weather station prompt, architecture nodes, output stages, and validation checks.</desc>
+  <rect width="1440" height="900" rx="24" fill="#05070d"/>
+  <rect x="40" y="40" width="1360" height="820" rx="18" fill="#07101a" stroke="#56ccf2" stroke-opacity="0.24"/>
+  <rect x="40" y="40" width="1360" height="64" rx="18" fill="#08111d"/>
+  <text x="80" y="80" fill="#f7fbff" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700">Maverick Workspace</text>
+  <text x="1194" y="80" fill="#a9b7c6" font-family="Inter, Arial, sans-serif" font-size="16">Prototype Plan</text>
+  <rect x="80" y="140" width="300" height="620" rx="14" fill="#09121e" stroke="#96aabe" stroke-opacity="0.14"/>
+  <text x="112" y="188" fill="#718194" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">INPUT PROMPT</text>
+  <text x="112" y="236" fill="#f7fbff" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">Build a battery-powered</text>
+  <text x="112" y="272" fill="#f7fbff" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">weather station with</text>
+  <text x="112" y="308" fill="#f7fbff" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">BME280, ESP32,</text>
+  <text x="112" y="344" fill="#f7fbff" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="700">and display</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="19" font-weight="700" fill="#d7eff8">
+    <rect x="112" y="406" width="204" height="48" rx="8" fill="#56ccf2" fill-opacity="0.08" stroke="#56ccf2" stroke-opacity="0.22"/>
+    <text x="132" y="438">Architecture</text>
+    <rect x="112" y="472" width="204" height="48" rx="8" fill="#56ccf2" fill-opacity="0.08" stroke="#56ccf2" stroke-opacity="0.22"/>
+    <text x="132" y="504">BOM</text>
+    <rect x="112" y="538" width="204" height="48" rx="8" fill="#56ccf2" fill-opacity="0.08" stroke="#56ccf2" stroke-opacity="0.22"/>
+    <text x="132" y="570">Wiring</text>
+    <rect x="112" y="604" width="204" height="48" rx="8" fill="#56ccf2" fill-opacity="0.08" stroke="#56ccf2" stroke-opacity="0.22"/>
+    <text x="132" y="636">Validation</text>
+  </g>
+  <rect x="410" y="140" width="660" height="620" rx="14" fill="#09121e" stroke="#96aabe" stroke-opacity="0.14"/>
+  <text x="446" y="190" fill="#718194" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">ARCHITECTURE</text>
+  <text x="446" y="226" fill="#f7fbff" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="760">Weather station v0.1</text>
+  <path d="M740 318 L560 430 L740 592 L918 430 Z M740 318 L740 592 M560 430 H918" fill="none" stroke="#56ccf2" stroke-opacity="0.52" stroke-width="3"/>
+  <g font-family="Inter, Arial, sans-serif" font-size="20" font-weight="740" text-anchor="middle">
+    <rect x="672" y="274" width="136" height="58" rx="10" fill="#9de7ff"/>
+    <text x="740" y="310" fill="#041018">ESP32</text>
+    <rect x="486" y="400" width="148" height="58" rx="10" fill="#09182a" stroke="#56ccf2" stroke-opacity="0.35"/>
+    <text x="560" y="436" fill="#f7fbff">BME280</text>
+    <rect x="844" y="400" width="148" height="58" rx="10" fill="#09182a" stroke="#56ccf2" stroke-opacity="0.35"/>
+    <text x="918" y="436" fill="#f7fbff">Display</text>
+    <rect x="672" y="562" width="136" height="58" rx="10" fill="#09182a" stroke="#56ccf2" stroke-opacity="0.35"/>
+    <text x="740" y="598" fill="#f7fbff">Battery</text>
+    <rect x="672" y="400" width="136" height="58" rx="10" fill="#09182a" stroke="#56ccf2" stroke-opacity="0.35"/>
+    <text x="740" y="436" fill="#f7fbff">Regulator</text>
+  </g>
+  <rect x="1100" y="140" width="260" height="620" rx="14" fill="#09121e" stroke="#96aabe" stroke-opacity="0.14"/>
+  <text x="1130" y="190" fill="#718194" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700">VALIDATION</text>
+  <text x="1130" y="226" fill="#f7fbff" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="760">Pre-build checks</text>
+  <g font-family="Inter, Arial, sans-serif" font-size="17">
+    <rect x="1130" y="276" width="198" height="70" rx="9" fill="#ffffff" fill-opacity="0.028" stroke="#96aabe" stroke-opacity="0.14"/>
+    <text x="1150" y="306" fill="#9de7ff" font-size="12" font-weight="800">CHECKED</text>
+    <text x="1150" y="330" fill="#dce7f0">Voltage rails checked</text>
+    <rect x="1130" y="366" width="198" height="70" rx="9" fill="#ffffff" fill-opacity="0.028" stroke="#96aabe" stroke-opacity="0.14"/>
+    <text x="1150" y="396" fill="#9de7ff" font-size="12" font-weight="800">REQUIRED</text>
+    <text x="1150" y="420" fill="#dce7f0">I2C pullups required</text>
+    <rect x="1130" y="456" width="198" height="70" rx="9" fill="#ffffff" fill-opacity="0.028" stroke="#96aabe" stroke-opacity="0.14"/>
+    <text x="1150" y="486" fill="#9de7ff" font-size="12" font-weight="800">NEEDED</text>
+    <text x="1150" y="510" fill="#dce7f0">Runtime estimate needed</text>
+    <rect x="1130" y="546" width="198" height="82" rx="9" fill="#56ccf2" fill-opacity="0.06" stroke="#56ccf2" stroke-opacity="0.32"/>
+    <text x="1150" y="576" fill="#9de7ff" font-size="12" font-weight="800">FLAGGED</text>
+    <text x="1150" y="600" fill="#dce7f0">Display current budget</text>
+    <text x="1150" y="624" fill="#dce7f0">flagged</text>
+  </g>
+</svg>
