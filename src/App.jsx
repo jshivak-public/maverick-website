@@ -1,5 +1,5 @@
-const EMAIL = 'jshivak@illinois.edu';
-const MAILTO = 'mailto:jshivak@illinois.edu?subject=Maverick%20Inquiry';
+const EMAIL = 'founder@maverickeda.com';
+const MAILTO = 'mailto:founder@maverickeda.com?subject=Maverick%20Inquiry';
 
 const problemBullets = [
   'Datasheets bury critical pins, ratings, timing notes, and wiring constraints across dozens of pages.',
@@ -213,13 +213,29 @@ const roadmapCards = [
   'Build an agentic hardware debugging workflow',
 ];
 
+function LogoMark({ className = 'logo-mark' }) {
+  return (
+    <svg
+      className={className}
+      viewBox="0 0 100 100"
+      role="img"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path className="logo-stroke logo-stroke-main" d="M18 76V34L50 66L82 34V76" />
+      <path className="logo-stroke" d="M22 22L50 50L78 22" />
+      <path className="logo-stroke logo-stroke-inner" d="M32 76V56L44 68" />
+      <path className="logo-stroke logo-stroke-inner" d="M68 76V56L56 68" />
+      <path className="logo-stroke logo-stroke-terminal" d="M18 34H30" />
+      <path className="logo-stroke logo-stroke-terminal" d="M82 34H70" />
+    </svg>
+  );
+}
+
 function MaverickLogo() {
   return (
     <span className="logo-lockup" aria-label="Maverick">
-      <svg className="logo-mark" viewBox="0 0 64 48" role="img" aria-hidden="true">
-        <path className="logo-trace" d="M7 35 L18 14 L31 34 L44 14 L57 35" />
-        <path className="logo-trace fine" d="M18 14 H10 M44 14 H54 M31 34 V42" />
-      </svg>
+      <LogoMark />
       <span className="logo-word">Maverick</span>
     </span>
   );
@@ -243,6 +259,7 @@ function ProductMockup() {
       aria-label="Maverick interface showing a weather station prompt, architecture graph, generated files, and design warnings."
     >
       <div className="mockup-topbar">
+        <LogoMark className="mockup-logo-mark" />
         <span className="mockup-title">Maverick Workspace</span>
         <span className="mockup-status">Prototype Plan</span>
       </div>
